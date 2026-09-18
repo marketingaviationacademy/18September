@@ -45,10 +45,10 @@ export const Slide12Closing: React.FC<SlideProps> = ({ slide }) => {
               THANK YOU FOR JOINING US
             </h2>
             <div className="text-sm sm:text-base font-bold text-neutral-700 tracking-wider uppercase">
-              18 SEPTEMBER 2026 | HYDERABAD
+              19 SEPTEMBER 2026 | LITTLE FLOWER | HYDERABAD
             </div>
             <div className="text-xs font-bold text-neutral-500 uppercase tracking-widest">
-              For Students & Parents
+              LITTLE FLOWER • FUTURE PILOTS
             </div>
           </div>
 

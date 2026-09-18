@@ -41,7 +41,7 @@ export const PresentationControls: React.FC<PresentationControlsProps> = ({
           </div>
           <span className="text-neutral-300">|</span>
           <span className="text-[11px] font-medium text-neutral-500 hidden md:inline">
-            Designed for Students & Parents
+            Little Flower • Future Pilots
           </span>
           <span className="text-neutral-300 hidden md:inline">|</span>
           <div className="text-[11px] font-mono text-neutral-700 bg-neutral-100 px-2 py-0.5 border border-neutral-200">

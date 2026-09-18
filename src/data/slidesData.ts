@@ -14,9 +14,9 @@ export const SLIDES: SlideContent[] = [
     id: 1,
     slideNumber: '01',
     category: 'WELCOME & OPENING',
-    title: 'WELCOME TO\nAIRWAYS AVIATION',
+    title: 'AIRWAYS AVIATION × LITTLE FLOWER',
     subtitle: 'Aviation Career Guidance Seminar',
-    supportingText: '18 SEPTEMBER 2026 | HYDERABAD\nFor Students & Parents',
+    supportingText: '19 SEPTEMBER 2026 | HYDERABAD\nLITTLE FLOWER • FUTURE PILOTS',
     instructorNotes: 'Welcome students and parents. State clearly that today’s session is an educational, objective career briefing to provide genuine clarity on aviation pathways, prerequisites, and realistic expectations.',
     stageName: 'Welcome'
   },
@@ -118,7 +118,7 @@ export const SLIDES: SlideContent[] = [
     category: 'CONCLUDING REMARKS',
     title: 'YOUR DREAM.\nOUR DIRECTION.',
     subtitle: 'THANK YOU FOR JOINING US',
-    supportingText: '18 SEPTEMBER 2026 | HYDERABAD\nAIRWAYS AVIATION',
+    supportingText: '19 SEPTEMBER 2026 | LITTLE FLOWER | HYDERABAD\nAIRWAYS AVIATION',
     instructorNotes: 'Thank students and parents for their time and attentiveness. Open the floor for open Q&A and invite families to discuss academic documents with the senior aviation counselors present.',
     stageName: 'Closing'
   }

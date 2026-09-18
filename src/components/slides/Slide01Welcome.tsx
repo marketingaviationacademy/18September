@@ -26,30 +26,29 @@ export const Slide01Welcome: React.FC<SlideProps> = ({ slide }) => {
       {/* Main Split-Screen Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center my-auto py-4">
         {/* Left Column: Minimal Typography Prompts */}
-        <div className="lg:col-span-7 flex flex-col justify-center space-y-6">
-          {/* Official Brand Logo */}
-          <div className="pb-1">
+        <div className="lg:col-span-7 flex flex-col justify-center space-y-5 sm:space-y-6">
+          {/* Official Brand Logo & Institutional Badge */}
+          <div className="flex items-center gap-3 flex-wrap">
             <AirwaysLogo size="lg" showSubtitle={false} id="slide-01-airways-logo" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-neutral-100 border border-neutral-200">
+              <span className="text-[10px] font-extrabold uppercase tracking-widest text-red-600">
+                SEMINAR ORIENTATION
+              </span>
+            </div>
           </div>
 
-          {/* Institutional Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 bg-neutral-100 border border-neutral-200 w-fit">
-            <span className="text-[10px] font-extrabold uppercase tracking-widest text-red-600">
-              SEMINAR ORIENTATION
-            </span>
-          </div>
-
-          {/* EXACT MANDATED LARGE HEADLINE */}
+          {/* PROMINENT COLLABORATION HEADLINE (ONE SINGLE LINE) */}
           <div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-neutral-950 tracking-tight leading-[1.06] uppercase">
-              WELCOME TO<br />
-              <span className="text-red-600">AIRWAYS AVIATION</span>
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] font-extrabold text-neutral-950 tracking-tight leading-tight uppercase">
+              <span>AIRWAYS AVIATION</span>
+              <span className="text-red-600 font-normal mx-2 sm:mx-3">×</span>
+              <span>LITTLE FLOWER</span>
             </h1>
           </div>
 
-          {/* Small Line */}
+          {/* Sub-headline */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-neutral-800 tracking-tight">
+            <h2 className="text-lg sm:text-xl font-bold text-neutral-700 tracking-tight uppercase">
               Aviation Career Guidance Seminar
             </h2>
           </div>
@@ -60,10 +59,10 @@ export const Slide01Welcome: React.FC<SlideProps> = ({ slide }) => {
           {/* Date & Audience Prompts */}
           <div className="space-y-1.5 pt-1">
             <div className="text-base sm:text-lg font-bold text-neutral-900 tracking-wider">
-              18 SEPTEMBER 2026 | HYDERABAD
+              19 SEPTEMBER 2026 | HYDERABAD
             </div>
-            <div className="text-xs sm:text-sm font-bold text-neutral-500 uppercase tracking-widest">
-              For Students & Parents
+            <div className="text-xs sm:text-sm font-extrabold text-neutral-500 uppercase tracking-widest">
+              LITTLE FLOWER • FUTURE PILOTS
             </div>
           </div>
         </div>
