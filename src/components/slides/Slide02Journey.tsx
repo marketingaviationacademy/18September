@@ -8,11 +8,11 @@ interface SlideProps {
 
 export const Slide02Journey: React.FC<SlideProps> = ({ slide }) => {
   const stages = [
-    { num: '01', name: 'EXPLORE', tag: 'AWARENESS', desc: 'Industry Scope' },
-    { num: '02', name: 'UNDERSTAND', tag: 'DUE DILIGENCE', desc: 'Rules & Medicals' },
-    { num: '03', name: 'PREPARE', tag: 'FOUNDATION', desc: 'DGCA Theory' },
-    { num: '04', name: 'TRAIN', tag: 'FLIGHT HOURS', desc: 'Dual & Solo' },
-    { num: '05', name: 'PROGRESS', tag: 'AIRLINE ENTRY', desc: 'CPL & Type Rating' }
+    { num: '01', name: 'WHY AVIATION', tag: 'OPPORTUNITY', desc: 'Global Scope' },
+    { num: '02', name: 'ELIGIBILITY', tag: 'CRITERIA', desc: '10+2 PCM & Age 17+' },
+    { num: '03', name: 'SUBJECTS', tag: 'GROUND SCHOOL', desc: '6 DGCA Papers' },
+    { num: '04', name: 'FLIGHT TRAINING', tag: 'PRACTICAL', desc: '200+ Flying Hours' },
+    { num: '05', name: 'CAREER', tag: 'AIRLINE ENTRY', desc: 'First Officer & Captain' }
   ];
 
   return (
@@ -26,7 +26,7 @@ export const Slide02Journey: React.FC<SlideProps> = ({ slide }) => {
           </span>
         </div>
         <div className="text-[11px] font-bold text-neutral-500 font-mono">
-          Slide 02 / 12
+          Slide 03 / 12
         </div>
       </div>
 

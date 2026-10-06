@@ -49,11 +49,11 @@ export const Slide10Stats: React.FC<SlideProps> = ({ slide }) => {
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 bg-red-600 inline-block" />
           <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-neutral-800">
-            GLOBAL INSTITUTIONAL RECORD
+            CAREER OPPORTUNITIES • INDUSTRY PERSPECTIVE
           </span>
         </div>
         <div className="text-[11px] font-bold text-neutral-500 font-mono">
-          Slide 10 / 12
+          Slide 09 / 12
         </div>
       </div>
 
@@ -61,11 +61,11 @@ export const Slide10Stats: React.FC<SlideProps> = ({ slide }) => {
       <div className="my-auto py-4 space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div>
-            <div className="text-xs font-bold text-neutral-500 uppercase tracking-widest mb-1">
-              WHY AIRWAYS AVIATION?
+            <div className="text-xs font-bold text-red-600 uppercase tracking-widest mb-1">
+              EXPANDING AVIATION HORIZONS
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-neutral-950 tracking-tight leading-none uppercase">
-              MEET AIRWAYS AVIATION
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-neutral-950 tracking-tight leading-tight uppercase">
+              CAREER OPPORTUNITIES / INDUSTRY PERSPECTIVE
             </h2>
             <div className="w-16 h-1 bg-red-600 mt-3" />
           </div>
@@ -123,20 +123,20 @@ export const Slide10Stats: React.FC<SlideProps> = ({ slide }) => {
           <div className="lg:col-span-5 border border-neutral-200 bg-neutral-100 p-2 flex flex-col justify-between">
             <div className="relative aspect-[4/3] overflow-hidden bg-neutral-900 border border-neutral-200">
               <img
-                src={AVIATION_IMAGES.fleetTraining}
-                alt="Airways Aviation training fleet on tarmac"
+                src={AVIATION_IMAGES.careerPilot}
+                alt="Professional airline pilot in cockpit flight deck"
                 className="w-full h-full object-cover object-center filter contrast-105"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-neutral-900/20" />
+              <div className="absolute inset-0 bg-neutral-900/10" />
             </div>
 
             <div className="mt-2.5 p-2.5 bg-white border border-neutral-200 flex items-center justify-between text-xs">
               <span className="font-extrabold text-neutral-900 uppercase tracking-wider text-[11px]">
-                Multi-Base International Fleet
+                Aviation Career Leadership
               </span>
               <span className="text-[10px] font-bold text-red-600 uppercase tracking-widest">
-                EASA • CASA • DGCA
+                Flight Deck Command
               </span>
             </div>
           </div>

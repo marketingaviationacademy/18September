@@ -48,11 +48,11 @@ export const PresentationHeader: React.FC<PresentationHeaderProps> = ({
           <AirwaysLogo />
           <div className="hidden lg:flex items-center gap-2 pl-3 border-l border-neutral-300">
             <span className="text-[11px] font-bold text-neutral-800 tracking-wider">
-              19 SEPTEMBER 2026
+              07 OCTOBER 2026
             </span>
             <span className="text-neutral-300">•</span>
             <span className="text-[11px] font-bold text-neutral-700 tracking-wider">
-              LITTLE FLOWER
+              MAHAVEER INSTITUTE
             </span>
             <span className="text-neutral-300">•</span>
             <span className="text-[11px] font-bold text-red-600 tracking-wider">

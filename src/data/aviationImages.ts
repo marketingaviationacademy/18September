@@ -4,8 +4,8 @@
  * airport ramp operations, flight instruments, dual-control cockpit, and airfield photography.
  */
 export const AVIATION_IMAGES = {
-  // Slide 1: Welcome - Authentic cockpit in flight: pilot in uniform looking through windshield
-  welcomeHero: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1600&auto=format&fit=crop',
+  // Slide 1: Welcome - Realistic Diamond DA40 aircraft in flight / takeoff
+  welcomeHero: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Diamond_DA40_Diamond_Star_N808ER_Leaving_VGT.jpg',
   
   // Slide 2: Waypoint roadmap accent - Training aircraft ready for takeoff
   journeyRoadmap: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?q=80&w=1200&auto=format&fit=crop',
@@ -31,7 +31,10 @@ export const AVIATION_IMAGES = {
   // Slide 9: Parents Perspective - Natural professional scene of mentor, parent and student in aviation environment
   parentConsultation: 'https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop',
   
-  // Slide 10: Airways Aviation - Multi-aircraft training fleet parked in precision line on tarmac apron
+  // Slide 10: Career Opportunities / Professional Pilot in Cockpit - Airline pilot in flight deck
+  careerPilot: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/General_Paul_J._Selva_piloting_a_Boeing_KC-46_Pegasus.jpg/1280px-General_Paul_J._Selva_piloting_a_Boeing_KC-46_Pegasus.jpg',
+  
+  // Airways Aviation Multi-aircraft training fleet parked in precision line on tarmac apron
   fleetTraining: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1200&auto=format&fit=crop',
   
   // Slide 11: Hyderabad Centre - Modern international airport runway with approaching airliner & control tower

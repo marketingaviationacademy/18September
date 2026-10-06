@@ -25,25 +25,25 @@ export const SlideRenderer: React.FC<SlideRendererProps> = ({ slide, direction }
       case 1:
         return <Slide01Welcome slide={slide} />;
       case 2:
-        return <Slide02Journey slide={slide} />;
+        return <Slide07PilotsStudy slide={slide} />;
       case 3:
-        return <Slide03WhyAviation slide={slide} />;
+        return <Slide02Journey slide={slide} />;
       case 4:
-        return <Slide04BeyondCockpit slide={slide} />;
+        return <Slide03WhyAviation slide={slide} />;
       case 5:
         return <Slide05Basics slide={slide} />;
       case 6:
         return <Slide06Pathway slide={slide} />;
       case 7:
-        return <Slide07PilotsStudy slide={slide} />;
-      case 8:
         return <Slide08Develop slide={slide} />;
-      case 9:
+      case 8:
         return <Slide09Parents slide={slide} />;
-      case 10:
+      case 9:
         return <Slide10Stats slide={slide} />;
-      case 11:
+      case 10:
         return <Slide11Hyderabad slide={slide} />;
+      case 11:
+        return <Slide04BeyondCockpit slide={slide} />;
       case 12:
         return <Slide12Closing slide={slide} />;
       default:

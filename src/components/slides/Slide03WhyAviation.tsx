@@ -10,11 +10,11 @@ interface SlideProps {
 
 export const Slide03WhyAviation: React.FC<SlideProps> = ({ slide }) => {
   const keywords = [
-    { text: 'GLOBAL INDUSTRY', icon: Globe, detail: 'Worldwide Connectivity' },
-    { text: 'PROFESSIONAL CAREER', icon: Award, detail: 'High Standard of Rigor' },
-    { text: 'TECHNOLOGY', icon: Cpu, detail: 'Cutting-Edge Avionics' },
-    { text: 'TRAVEL & NETWORK', icon: Navigation, detail: 'International Mobility' },
-    { text: 'MULTIPLE CAREER PATHS', icon: Briefcase, detail: 'Cockpit & Operations' }
+    { text: 'GLOBAL CAREER OPPORTUNITIES', icon: Globe, detail: 'Worldwide Demand Across 190+ Countries' },
+    { text: 'PROFESSIONAL GROWTH', icon: Award, detail: 'Structured Airline Progression & Command' },
+    { text: 'TRAVEL & INTERNATIONAL EXPOSURE', icon: Navigation, detail: 'Global Mobility & Cultural Breadth' },
+    { text: 'HIGH-RESPONSIBILITY CAREER', icon: Cpu, detail: 'Commanding Multi-Million Dollar Aircraft' },
+    { text: 'PART OF THE AVIATION INDUSTRY', icon: Briefcase, detail: 'Dynamic, High-Growth Global Ecosystem' }
   ];
 
   return (
@@ -24,19 +24,22 @@ export const Slide03WhyAviation: React.FC<SlideProps> = ({ slide }) => {
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 bg-red-600 inline-block" />
           <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-neutral-800">
-            INDUSTRY PERSPECTIVE & OPPORTUNITY
+            WHY AVIATION • CAREER PERSPECTIVE
           </span>
         </div>
         <div className="text-[11px] font-bold text-neutral-500 font-mono">
-          Slide 03 / 12
+          Slide 04 / 12
         </div>
       </div>
 
       {/* Main Content Area */}
       <div className="my-auto py-4 space-y-6">
         <div>
+          <div className="text-xs font-bold text-red-600 uppercase tracking-widest mb-1">
+            AN EXCITING, HIGH-GROWTH INDUSTRY
+          </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-neutral-950 tracking-tight leading-none uppercase">
-            WHY AVIATION?
+            WHY AVIATION
           </h2>
           <div className="w-16 h-1 bg-red-600 mt-3" />
         </div>

@@ -25,11 +25,11 @@ export const Slide11Hyderabad: React.FC<SlideProps> = ({ slide }) => {
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 bg-red-600 inline-block" />
           <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-neutral-800">
-            REGIONAL GATEWAY & CONTINUUM
+            AIRWAYS AVIATION • TRAINING & SUPPORT
           </span>
         </div>
         <div className="text-[11px] font-bold text-neutral-500 font-mono">
-          Slide 11 / 12
+          Slide 10 / 12
         </div>
       </div>
 
@@ -37,11 +37,11 @@ export const Slide11Hyderabad: React.FC<SlideProps> = ({ slide }) => {
       <div className="my-auto py-4 space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div>
-            <div className="text-xs font-bold text-neutral-500 uppercase tracking-widest mb-1">
-              AIRWAYS AVIATION INDIA • HYDERABAD CENTRE
+            <div className="text-xs font-bold text-red-600 uppercase tracking-widest mb-1">
+              GLOBAL ATO & HYDERABAD CENTRE
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-neutral-950 tracking-tight leading-tight uppercase">
-              YOUR JOURNEY CAN BEGIN HERE
+              AIRWAYS AVIATION — TRAINING & SUPPORT
             </h2>
             <div className="w-16 h-1 bg-red-600 mt-3" />
           </div>

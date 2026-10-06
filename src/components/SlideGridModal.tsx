@@ -29,7 +29,7 @@ export const SlideGridModal: React.FC<SlideGridModalProps> = ({
                 SEMINAR PRESENTATION DECK OVERVIEW
               </div>
               <div className="text-sm font-bold text-neutral-900">
-                12 Minimalist Visual Prompts • 19 September 2026 • Little Flower • Hyderabad
+                12 Minimalist Visual Prompts • 07 October 2026 • Mahaveer Institute • Hyderabad
               </div>
             </div>
           </div>

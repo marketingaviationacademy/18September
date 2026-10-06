@@ -42,7 +42,7 @@ export const Slide01Welcome: React.FC<SlideProps> = ({ slide }) => {
             <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] font-extrabold text-neutral-950 tracking-tight leading-tight uppercase">
               <span>AIRWAYS AVIATION</span>
               <span className="text-red-600 font-normal mx-2 sm:mx-3">×</span>
-              <span>LITTLE FLOWER</span>
+              <span>MAHAVEER INSTITUTE</span>
             </h1>
           </div>
 
@@ -59,10 +59,10 @@ export const Slide01Welcome: React.FC<SlideProps> = ({ slide }) => {
           {/* Date & Audience Prompts */}
           <div className="space-y-1.5 pt-1">
             <div className="text-base sm:text-lg font-bold text-neutral-900 tracking-wider">
-              19 SEPTEMBER 2026 | HYDERABAD
+              07 OCTOBER 2026 | MAHAVEER INSTITUTE | HYDERABAD
             </div>
             <div className="text-xs sm:text-sm font-extrabold text-neutral-500 uppercase tracking-widest">
-              LITTLE FLOWER • FUTURE PILOTS
+              MAHAVEER INSTITUTE • FUTURE PILOTS
             </div>
           </div>
         </div>
@@ -73,14 +73,14 @@ export const Slide01Welcome: React.FC<SlideProps> = ({ slide }) => {
             <div className="relative aspect-[4/3] overflow-hidden bg-neutral-900">
               <img
                 src={AVIATION_IMAGES.welcomeHero}
-                alt="Commercial aircraft in clean flight"
+                alt="Diamond DA40 training aircraft in flight"
                 className="w-full h-full object-cover object-center filter brightness-95 contrast-105"
                 referrerPolicy="no-referrer"
               />
             </div>
             <div className="mt-2.5 p-2.5 bg-white border border-neutral-200 flex items-center justify-between text-xs">
               <span className="font-extrabold text-neutral-900 uppercase tracking-wider text-[11px]">
-                HYDERABAD LEARNING CENTRE
+                DIAMOND DA40 • TRAINING AIRCRAFT
               </span>
               <span className="text-[10px] font-bold text-red-600 uppercase tracking-widest">
                 DGCA & GLOBAL ATO
